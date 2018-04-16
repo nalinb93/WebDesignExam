@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Final Exam</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript">
+
+    function hideImage(){
+      var x = document.getElementById("funcimage");
+        if (x.style.display = "block") {
+            x.style.display = "none";
+      }
+
+
+}
+
+function showImage(){
+  var x = document.getElementById("funcimage");
+    if (x.style.display = "none") {
+        x.style.display = "block";
+  }
+
+
+}
+    </script>
+
+  </head>
+  <body>
+
+    <h1>Nalin Bhatia</h1>
+      <div class = "pics">
+      <img src="images/examPic.JPG" id="funcimage" alt ="exampic">
+      <img src="images/UMSI-logo.jpg"  alt ="umsilogo">
+    </div>
+    <br>
+      <div class = "buttons">
+      <input type = "submit" onclick="hideImage()" value = "Hide Image">
+      <input type = "submit" onclick="showImage()" value = "Show Image">
+      </div>
+    </form>
+  </body>
+</html>
